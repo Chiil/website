@@ -3,17 +3,17 @@
   border-color: #ffffff;
 }
 .navbar-default .navbar-brand {
-  color: #b8b8b8;
+  color: #b0b0b0;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #000000;
 }
 .navbar-default .navbar-text {
-  color: #b8b8b8;
+  color: #b0b0b0;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #b8b8b8;
+  color: #b0b0b0;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -39,14 +39,14 @@
   background-color: #ffffff;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #b8b8b8;
+  background-color: #b0b0b0;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #b8b8b8;
+  border-color: #b0b0b0;
 }
 .navbar-default .navbar-link {
-  color: #b8b8b8;
+  color: #b0b0b0;
 }
 .navbar-default .navbar-link:hover {
   color: #000000;
@@ -54,7 +54,7 @@
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #b8b8b8;
+    color: #b0b0b0;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -83,12 +83,17 @@ h1.CvH
   line-height: 130%;
 }
 
-h3.CvH
+h3
 {
   font-family: Georgia;
   font-size: 20px !important;
   font-weight: normal;
   padding-bottom: 10px;
+}
+
+h4
+{
+  font-family: Georgia;
 }
 
 p.lead
@@ -110,6 +115,7 @@ p
 ul
 {
   font-family: Georgia;
+  padding-left: 24px;
 }
 
 div.jumbotron
@@ -125,14 +131,19 @@ div.jumbotron_small
   padding-top: 12px;
 }
 
-p.footer:
-{
-  font-color: #ff0000;
-}
-
 div.col-md-4:
 {
   padding-left: 10%;
   /*padding-left: 200px;
   padding-right: 20px;*/
+}
+
+.border-left
+{
+  border-left: 1px solid;
+}
+
+p.footer
+{
+  color: #b0b0b0;
 }

@@ -107,6 +107,11 @@ p
   font-family: Georgia;
 }
 
+ul
+{
+  font-family: Georgia;
+}
+
 div.jumbotron
 {
   height: 200px;
@@ -117,7 +122,7 @@ div.jumbotron_small
 {
   height: 100px;
   background: url('image.jpg') repeat bottom center;
-  padding-top: 10px;
+  padding-top: 12px;
 }
 
 p.footer:
